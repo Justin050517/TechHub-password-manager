@@ -1,0 +1,35 @@
+{
+  "name": "Web3 Password Manager",
+  "slug": "web3-password-manager",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./public/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./public/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./public/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    }
+  },
+  "web": {
+    "favicon": "./public/favicon.ico"
+  },
+  "deployment": {
+    "isPublic": true,
+    "target": "preview",
+    "sftp": {
+      "enabled": false
+    }
+  }
+}
